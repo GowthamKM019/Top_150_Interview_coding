@@ -11,7 +11,7 @@ def removeElement(nums, val):
         if nums[i] != val:
             nums[k] = nums[i]  # Move the non-val element to the front
 
-
+    return k
 
         
             
